@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("images/bg-intro-desktop.png");
+    background-color:  hsl(0, 100%, 74%);
+    /* font-family: url(https://fonts.google.com/specimen/Poppins); */
+
+}
+.content{
+    font-family: url(https://fonts.google.com/specimen/Poppins);
+    font-weight: "400, 500, 600, 700";
+    color: white;
+    display:flexbox;
+}
+button{
+    background-color:  hsl(248, 32%, 49%);
+    box-shadow: 10px;
+    height: 30px;
+    width: 300px;
+    color:white;
+    border-radius: 10px;
+    
+}
+form{
+    text-align: left;
+    border-radius: 20px;
+}
+
+
+
+ 
+@media screen and (max-width: 1440px) {
+    
+}
+
+/* @media screen and (max-width: 569px) {
+
+}
+
+@media screen and (max-width: 410px) {
+
+}  */
